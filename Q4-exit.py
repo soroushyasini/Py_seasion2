@@ -31,7 +31,7 @@ def hint():
 hint()
 a = input("exit or numbers : ")
 sum = 0
-while a != "exit":
+while a != "exit" or "EXIT" :
     sum = int(a) + sum
     a = input("exit or numbers : ")
 print(color.OKGREEN + "the sum is : ", sum)
